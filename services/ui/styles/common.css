@@ -1,0 +1,120 @@
+#header-container{
+    width: 70%;
+    min-width: 300px;
+    max-width: 1000px;
+    height: 50px;
+    background-color: #738cff;
+    margin: auto;
+    margin-bottom: 20PX;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#networkContainer{
+    width: 90%;
+    min-width: 1000px;
+    height: 1000px;
+    background-color: #a3d6ff;
+    margin: auto;
+    border: 1px solid;
+}
+
+.add-laptop-icon {
+    width: 50px;
+    height: 40px;
+    background: #F3EFEF;
+    border: 0.5px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    cursor: crosshair;
+}
+
+.laptop-off {
+    width: 80px;
+    height: 50px;
+
+    background: #F3EFEF;
+    border: 0.5px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    z-index: 5;
+}
+
+.laptop-on{
+    width: 80px;
+    height: 50px;
+
+    background: #9cf88e;
+    border: 0.5px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    z-index: 5;
+}
+
+
+.add-switch-icon{
+    width: 60px;
+    height: 15px;
+    background: #F3EFEF;
+    border: 0.5px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: crosshair;
+}
+
+
+.switch-off{
+    width: 80px;
+    height: 30px;
+    background: #F3EFEF;
+    border: 0.5px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 5;
+}
+
+.switch-on{
+    width: 80px;
+    height: 30px;
+    background: #9cf88e;
+    border: 0.5px solid #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 5;
+}
+
+.port{
+    width: 7px;
+    height: 7px;
+    background: #000000;
+}
+
+
+.line {
+    height: 1px;
+    background-color: rgb(245, 0, 0);
+    transform-origin: left center;
+    position: absolute;
+    z-index: 1;
+}
+
+.indicator{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 2px;
+    cursor: pointer;
+}

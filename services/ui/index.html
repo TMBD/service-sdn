@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service SDN</title>
+    <link rel="stylesheet" href="styles/drag_and_drop.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/message_box.css">
+
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+    <!-- <link rel='stylesheet' href='styles/lib/font-awesome.min.css'>
+    <link rel='stylesheet' href='styles/lib/bootstrap-3.3.6.min.css'> -->
+
+
+</head>
+<body>
+    <div id="header-container">
+        <div class="add-laptop-icon" onclick="addLaptop()"></div>
+
+        <div class="equipment add-switch-icon" onclick="addSwitch()">
+            <div class="port"></div>
+            <div class="port"></div>
+        </div>
+    </div>
+    
+    <!-- <input type="button" value="recevoir" onclick="recevoir()"> -->
+    
+    <div id="networkContainer"></div>
+
+  
+  <script src="./script/lib/jquery-3.4.1.js"></script>
+  <script src="./script/drag_and_drop.js"></script>
+  <script src="./script/App.js"></script>
+  <script src="./script/classes/Laptop.js"></script>
+  <script src="./script/classes/Switch.js"></script>
+  <script src="./script/classes/Network.js"></script>
+  <script src="./script/jq.js"></script>
+
+</body>
+</html>
