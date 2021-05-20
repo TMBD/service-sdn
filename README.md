@@ -10,4 +10,5 @@ Le contrôleur est un programme pouvant recevoir des commandes et les transmettr
 La couche SDN est constituée de programmes permettant d’exploiter les équipements de la couche physique via le contrôleur
 
 
+![image](https://user-images.githubusercontent.com/26790567/118989929-f652da00-b971-11eb-83c7-3bbfd1730cd5.png)
 
